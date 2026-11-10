@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class RemoveValue {
 
-    // Время O(n), память O(1)
     public int removeElementInplace(int[] numbers, int val) {
         int write = 0;
         for (int read = 0; read < numbers.length; read++) {

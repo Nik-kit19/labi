@@ -5,7 +5,6 @@ import java.util.Deque;
 
 public class Skobki {
 
-    // Время O(n), память O(n)
     public boolean isBalanced(String str) {
         Deque<Character> stack = new ArrayDeque<>();
         for (char c : str.toCharArray()) {
